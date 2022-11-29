@@ -1,0 +1,21 @@
+title: Math Panthier
+description: app that create a canvas in which it's able to draw rectangles and squares. To draw the app requires
+the coordinates from where to start drawing in the canvas and the width, length and RGB colors of the shapes that
+it's going to draw.
+objects:
+        Shape
+            x = 10
+            y = 10
+            color = [0,0,0]
+            type = "rectangle"
+            draw(self)
+        Canvas
+            height
+            width
+            color
+            create(imagepath)
+        Rectangle(Shape)
+            height = 20
+            width = 100
+        Square(Shape)
+            side = 20
